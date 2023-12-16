@@ -18,6 +18,17 @@ This combination requires only trivial further components (resistors and capacit
 battery holder, termimal
 blocks) to generate a multi-parameter weather station for <£150.
 
+
+
+### to-do
+
+- check need to disable interrupts in set-up
+- make power profile for current set-up
+- record V drop in hardware debounce circuits
+- get photo of deployment
+
+
+
 ### Alternate power supply possibilities
 
 Current version is meant to run off of 4.5 V of standard batteries.  This is to support a 
