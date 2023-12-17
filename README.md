@@ -42,7 +42,7 @@ operation using, for e.g.,
 
 https://www.tindie.com/products/jaspersikken/solar-harvesting-into-lithium-ion-capacitor/
 
-with as little as a 0.2W panel could be a future addition.
+with as little as a 0.4W panel could be a future addition.
 
 ### Power consumption
 
