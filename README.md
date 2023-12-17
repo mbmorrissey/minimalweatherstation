@@ -36,7 +36,9 @@ SH student project
 at a field site that currently does not have continuous local meterological data.  Power 
 profile remains to be
 done, but MBM suspects that continuous operation using, for e.g., 
+
 https://www.tindie.com/products/jaspersikken/solar-harvesting-into-lithium-ion-capacitor/
+
 with as little ad 0.2W panel could be a future addition.
 
 ### Thoughts on extensions for commercial and open-source alternate parts
@@ -63,6 +65,7 @@ Options could include upgraded commercially available options or fully open-sour
 options.
 
 https://www.printables.com/model/130513-rain-gauge
+
 https://www.thingiverse.com/thing:3546977
 
 
