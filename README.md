@@ -26,7 +26,7 @@ blocks) to generate a multi-parameter weather station for <£150.
 - make power profile for current set-up
 - record V drop in hardware debounce circuits
 - get photo of deployment
-
+- photos of deployment
 
 
 ### Alternate power supply possibilities
