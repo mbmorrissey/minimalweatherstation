@@ -89,5 +89,5 @@ Design for anemometer and rain gauge uses reed switches with hardware de-bounce 
 pullup with 0.1 uF to ground).  This works well for very low-power operation, and MCU seems to detect each pulse 
 despite the falling edge being a bit slow (MBM to double check on scope and record result).  Testing has not 
 suggested any missed pulses from slow fall time, but improved hardware debounce (e.g., add Schmitt trigger) to 
-be kept in mind.  Current thinking is that software debounce would lead to MUC awake time, but detailed study of 
-trade-off has not been conducted.
+be kept in mind.  Current thinking is that software debounce would lead to more MCU awake time, but detailed 
+study of trade-offs between different debounce strategies has not been conducted.
