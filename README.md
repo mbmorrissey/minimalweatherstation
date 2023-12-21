@@ -63,6 +63,9 @@ could be reduced by storing data and for e.g., writing every 5 min.
 
 ![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/testing_data/minimalweatherpower2.png)
 
+test
+
+
 ### Thoughts on extensions for commercial and open-source alternate parts
 
 This project could ultimately form the basis of a minimal design for general use 
