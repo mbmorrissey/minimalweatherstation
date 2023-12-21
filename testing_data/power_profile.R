@@ -7,7 +7,7 @@ d<-read.table("./power_profile_raw.csv",header=TRUE,sep=',')
 
 ## main plot of one minute of data
 
-pdf("./minimalweatherpower1.pdf",height=4,width=6)
+jpeg("./minimalweatherpower1.png",height=480,width=620)
 plot(1:(dim(d)[1])/1000,d[,2]/1000,type='l',
    xlab="time (s)", ylab="current (mA)")
 dev.off()

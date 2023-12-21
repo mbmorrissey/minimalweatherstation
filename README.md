@@ -1,5 +1,5 @@
-## Minimal Weather Station
 
+## Minimal Weather Station
 
 
 Minimal weather station based around hobby-grade sensors and the cadalogger data logging 
@@ -58,7 +58,7 @@ current usage half the time.  This could potentially be optimised
 - main current consumption probably comes from writing to the SD card every minute.  This 
 could be reduced by storing data and for e.g., writing every 5 min.
 
-![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/testing_data/minimalweatherpower1.pdf)
+![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/testing_data/minimalweatherpower1.png)
 
 ![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/testing_data/minimalweatherpower2.pdf)
 
