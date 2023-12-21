@@ -1,4 +1,5 @@
 
+
 ## Minimal Weather Station
 
 
@@ -60,7 +61,7 @@ could be reduced by storing data and for e.g., writing every 5 min.
 
 ![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/testing_data/minimalweatherpower1.png)
 
-![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/testing_data/minimalweatherpower2.pdf)
+![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/testing_data/minimalweatherpower2.png)
 
 ### Thoughts on extensions for commercial and open-source alternate parts
 

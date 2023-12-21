@@ -13,7 +13,7 @@ plot(1:(dim(d)[1])/1000,d[,2]/1000,type='l',
 dev.off()
 
 
-pdf("./minimalweatherpower2.pdf",height=4,width=6)
+pdf("./minimalweatherpower2.png",height=480,width=620)
 range<-1:5000
 plot(range,d[range,2],type='l',
    xlab="time (s)", ylab="current (uA)")
