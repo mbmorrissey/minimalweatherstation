@@ -8,6 +8,7 @@ platform.
 Rain gauge, wind vane and anemometer:
 
 https://thepihut.com/products/wind-and-rain-sensors-for-weather-station-wind-vane-anemometer-rain-gauge
+https://learn.sparkfun.com/tutorials/weather-meter-hookup-guide
 
 Temperature and humidity:
 
@@ -57,13 +58,16 @@ current usage half the time.  This could potentially be optimised
 - main current consumption probably comes from writing to the SD card every minute.  This 
 could be reduced by storing data and for e.g., writing every 5 min.
 
+![(/testing_data/minimalweatherpower1.pdf)]
+
 
 ### Thoughts on extensions for commercial and open-source alternate parts
 
 This project could ultimately form the basis of a minimal design for general use 
 low-investment environmental monitoring applications.  Student will ground-truth against 
 nearest met site for purpose of SH project. MBM and RN and/or MJJDS to check anemometer 
-pulses -> wind speed conversion (internet not consistent on info for this) against co-deployment with sonic anemometer upon retrieval of 
+pulses -> wind speed conversion (internet not consistent on info for this) against 
+co-deployment with sonic anemometer upon retrieval of 
 one of the latter from current St Kilda deployment.  This rain gauge is known to 
 underestimate in heavy rain or high wind, but is still likely 
 to generate very meaningful relative data (e.g., periods with vs without rain).
