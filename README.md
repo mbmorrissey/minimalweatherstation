@@ -48,21 +48,20 @@ with as little as a 0.4W panel could be a future addition.
 
 ### Power consumption
 
-- cadalogger board should sleep at about 2 uA between anemometer, rain gague and RTC 
-interrupts, and when not writing to the uSD card.
-- SHT31 should sleep at aboud 0.2 uA between measurements of temperature and humidity
-- design has pin-ground to switch off anemometer between readings, avoiding current leak 
-through resistor divider
-- half of the time, the anemometer reed switch is closed, leaving current loss through the 
-pullup resistor (R4), this has been minimised by using a 100k pullup, leaving 33 uA of 
-current usage half the time.  This could potentially be optimised
-- main current consumption probably comes from writing to the SD card every minute.  This 
-could be reduced by storing data and for e.g., writing every 5 min.
+Most power consumption is dominated by the write to the uSD card every minute, with a lesser contribution
+from blinking the LED every 5s:
 
 ![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/testing_data/minimalweatherpower1.png)
 
+Zooming in on a 5s interval, we can see the alternation between power total power consumtion of about 30 uA
+and 60 uA as the anemometer's reed switch opens and closes.  Of the two larger peaks, the first is the 
+flash of the LED, and the second is the brief calculations done by the logger every 5s:
+
 ![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/testing_data/minimalweatherpower2.png)
 
+Average power consumption over the 1 minute cycle is about 290 uA.  On paper, an approx 2000 mAh AA battery
+pack should then last 2000 mAh / 0.29 mA = approx 6890 h = approx 9 months.  We are currently testing what
+fraction of this is realised under real-world conditions.
 
 
 

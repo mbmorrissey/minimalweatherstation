@@ -16,7 +16,7 @@ dev.off()
 png("./minimalweatherpower2.png",height=480,width=620)
 range<-1:5000
 plot(range,d[range,2],type='l',
-   xlab="time (s)", ylab="current (uA)")
+   xlab="time (ms)", ylab="current (uA)")
 dev.off()
 
 
