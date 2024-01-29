@@ -1,4 +1,4 @@
-
+![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/images/scene_minimal.png)
 
 ## Minimal Weather Station
 
@@ -29,9 +29,7 @@ structural materials for deployment).
 ### to-do
 
 - check need to disable interrupts in set-up
-- make power profile for current set-up
 - record V drop in hardware debounce circuits
-- get photo of deployment
 - photos of deployment
 
 
