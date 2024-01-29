@@ -1,4 +1,4 @@
-![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/images/scene_minimal.png)
+![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/images/scene_minimal.jpg)
 
 ## Minimal Weather Station
 
