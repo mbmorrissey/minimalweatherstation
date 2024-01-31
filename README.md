@@ -97,3 +97,10 @@ despite the falling edge being a bit slow (MBM to double check on scope and reco
 suggested any missed pulses from slow fall time, but improved hardware debounce (e.g., add Schmitt trigger) to 
 be kept in mind.  Current thinking is that software debounce would lead to more MCU awake time, but detailed 
 study of trade-offs between different debounce strategies has not been conducted.
+
+
+### Example results
+
+![](https://github.com/mbmorrissey/minimalweatherstation/blob/main/images/prelim_weather.jpeg)
+
+Example data from a deployment in SW Scotland during the winter of 2023/4.
